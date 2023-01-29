@@ -13,7 +13,7 @@ C:\Users\satyam gupta>db.tacos.insertOne(doc)
 
 C:\Users\satyam gupta>db.tacos.find()
 
-C:\Users\satyam gupta>
+C:\Users\satyam gupta>db.tacos.find().pretty();
 
 
 
