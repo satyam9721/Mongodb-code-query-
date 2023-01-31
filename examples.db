@@ -19,4 +19,24 @@ C:\Users\satyam gupta>db.tacos.find().pretty();
 cookies> db.test.insertOne({"title" : "test doc"});
 
 cookies> db.test.find();
+-------------------------------------------------------------
+
+//collection
+cookies> show collections;
+
+//showing selected database
+
+cookies> db.getName();
+
+//inserting new document in database and checking it's created or not
+
+cookies> db.cool_newStuff.insertOne({});
+cookies> show collections
+
+------------------------------------------------------------------------
+//queryies
+
+
+
+
 
