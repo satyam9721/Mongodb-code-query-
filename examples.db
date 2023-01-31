@@ -16,4 +16,7 @@ C:\Users\satyam gupta>db.tacos.find()
 C:\Users\satyam gupta>db.tacos.find().pretty();
 
 
+cookies> db.test.insertOne({"title" : "test doc"});
+
+cookies> db.test.find();
 
