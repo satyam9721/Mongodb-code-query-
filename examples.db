@@ -35,7 +35,8 @@ cookies> show collections
 
 ------------------------------------------------------------------------
 //queryies
-
+to take the help from the shell
+>db.recipes.createIndex.help()
 
 
 
