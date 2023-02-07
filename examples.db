@@ -37,7 +37,16 @@ cookies> show collections
 //queryies
 to take the help from the shell
 >db.recipes.createIndex.help()
+---------------------------------------------------------------------
+finding recipes whose cooking time is 10 min.
 
+>db.recipes.find({"cook_time": 10},{"title" :1});
 
+creating custom indexes
 
+>db.recipes.getIndexes();
+
+droping the particular indexes
+
+cookies> db.recipes.dropIndex("cook_time_-1");
 
