@@ -50,3 +50,4 @@ droping the particular indexes
 
 cookies> db.recipes.dropIndex("cook_time_-1");
 
+
