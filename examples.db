@@ -49,5 +49,9 @@ creating custom indexes
 droping the particular indexes
 
 cookies> db.recipes.dropIndex("cook_time_-1");
+-----------------------------------------------------------------------
+locking database and unlocking
+cookies> db.fsyncLock();
 
+cookies> db.fsyncUnlock();
 
